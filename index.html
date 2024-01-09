@@ -4,8 +4,65 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Demo</title>
+  <style>
+    table {
+    
+      
+      text-align: center;
+  border-collapse: collapse; 
+}
+
+td, th {
+  border: 1px solid black; 
+  padding : 5px 10px;
+}
+th{
+  background-color: wheat;
+}
+  </style>
 </head>
 <body>
   <h1>My first demo html code</h1>
+  <table>
+    <caption>
+      Information about the user
+    </caption>
+    <thead>
+<tr>
+  <th>No.</th>
+  <th>Full Name</th>
+  <th>Department</th>
+  <th>ID</th>
+</tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>1</td>
+        <td>Ruma Akter</td>
+        <td>CSE</td>
+        <td>044</td>
+      </tr>
+      <tr>
+        <td>2</td>
+        <td>Tushi Islam</td>
+        <td>Textile</td>
+        <td>065</td>
+      </tr>
+      <tr>
+        <td>3</td>
+        <td>Fariya Alam</td>
+        <td>EEE</td>
+        <td>099</td>
+      </tr>
+    
+
+    </tbody>
+    <tfoot>
+      <tr>
+        <td colspan="4">total number of user is 4 </td>
+      </tr>
+
+    </tfoot>
+  </table>
 </body>
 </html>
